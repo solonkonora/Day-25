@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #111;
+  background-color: darksalmon;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -16,6 +16,26 @@ body {
   margin: 0;
 }
 
+div {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(0,0,0,0.1);
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.input {
+  width: 50px;
+  padding: 5px;
+  font-family: 18px;
+  background-color: darksalmon;
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
 .container {
   display: flex;
   align-items: center;
