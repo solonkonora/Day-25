@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: darksalmon;
+  background-color: #e9967a;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ body {
 div {
   position: absolute;
   bottom: 20px;
-  background-color: rgba(0,0,0,0.1);
+  background-color: #001a;
   padding: 10px 20px;
   font-size: 18px;
 }
@@ -28,7 +28,7 @@ div {
   width: 50px;
   padding: 5px;
   font-family: 18px;
-  background-color: darksalmon;
+  background-color: #e9967a;
   border: none;
   text-align: center;
 }
@@ -36,6 +36,7 @@ div {
 input:focus {
   outline: none;
 }
+
 .container {
   display: flex;
   align-items: center;
